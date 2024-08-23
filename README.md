@@ -4,7 +4,7 @@ This documentation explain how to create and test an api entry event inside Jour
 1º Create a new package to use a API SERVER-TO-SERVER integration (it will be used to get the request a valid SFMC token and realize tests in Postman)
 Learn more here: https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/install-packages.html
 
-2º Data Designer
+2º Data Designer <br>
 Seriously, you NEED to use Data Designer without creating complex SQL queries that use a lot of time running between data extensions, just use Data Designer to build relationships with your data extensions, this is a game changer when you know how to do it and separates the juniors from experts in data extensions.
 Use case: you have a data extension abandon chart that has a pk inside of it and another data extension with profile details, you can simply create this relationship without any type of automation previously running on Automation Studio by simply adding a relationship in Data Designer, by doing this you can control on what data extension do you want to save the API entry data.
 Learn more here: https://help.salesforce.com/s/articleView?id=sf.mc_cab_data_designer.htm&type=5
