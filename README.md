@@ -6,7 +6,7 @@ Learn more here: https://developer.salesforce.com/docs/marketing/marketing-cloud
 
 2º Data Designer <br>
 Seriously, you NEED to use Data Designer without creating complex SQL queries that use a lot of time running between data extensions, just use Data Designer to build relationships with your data extensions, this is a game changer when you know how to do it and separates the juniors from experts in data extensions.
-Use case: you have a data extension abandon chart that has a pk inside of it and another data extension with profile details, you can simply create this relationship without any type of automation previously running on Automation Studio by simply adding a relationship in Data Designer, by doing this you can control on what data extension do you want to save the API entry data.
+Use case: you have a data extension abandon chart that has a pk inside of it and another data extension with profile details, you can simply create this relationship without any type of automation previously running on Automation Studio by simply adding a relationship in Data Designer, by doing this you can control on what data extension do you want to save the API entry data and also use customization in your content without running complex SSJS inside your document.
 Learn more here: https://help.salesforce.com/s/articleView?id=sf.mc_cab_data_designer.htm&type=5
 
 3º Create a multi-step journey and select API event as entry source
